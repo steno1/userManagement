@@ -1,0 +1,21 @@
+.user-detail {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .user-detail h2 {
+    margin-bottom: 16px;
+  }
+  
+  .user-detail p {
+    margin: 8px 0;
+  }
+  
+  .user-detail h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  
