@@ -41,29 +41,31 @@ CSS
 
 📂 Folder Structure
 
-📦userManagement
- ┣ 📂public
- ┃ ┗ 📄index.html
- ┣ 📂src
- ┃ ┣ 📂app
- ┃ ┃ ┗ 📄store.ts
- ┃ ┣ 📂components
- ┃ ┃ ┣ 📂UserList
- ┃ ┃ ┃ ┣ 📄UserList.tsx
- ┃ ┃ ┃ ┗ 📄UserList.css
- ┃ ┃ ┣ 📂UserCard
- ┃ ┃ ┃ ┣ 📄UserCard.tsx
- ┃ ┃ ┃ ┗ 📄UserCard.css
- ┃ ┃ ┗ 📂UserForm
- ┃ ┃ ┃ ┣ 📄UserForm.tsx
- ┃ ┃ ┃ ┗ 📄UserForm.css
- ┃ ┣ 📂store
- ┃ ┃ ┗ 📄userSlice.ts
- ┃ ┣ 📂types
- ┃ ┃ ┗ 📄index.ts
- ┃ ┣ 📄App.tsx
- ┃ ┗ 📄main.tsx
- ┗ 📄README.md
+
+📦 userManagement
+├── 📂 public
+│   └── 📄 index.html
+├── 📂 src
+│   ├── 📂 app
+│   │   └── 📄 store.ts
+│   ├── 📂 components
+│   │   ├── 📂 UserList
+│   │   │   ├── 📄 UserList.tsx
+│   │   │   └── 📄 UserList.css
+│   │   ├── 📂 UserCard
+│   │   │   ├── 📄 UserCard.tsx
+│   │   │   └── 📄 UserCard.css
+│   │   └── 📂 UserForm
+│   │       ├── 📄 UserForm.tsx
+│   │       └── 📄 UserForm.css
+│   ├── 📂 store
+│   │   └── 📄 userSlice.ts
+│   ├── 📂 types
+│   │   └── 📄 index.ts
+│   ├── 📄 App.tsx
+│   └── 📄 main.tsx
+└── 📄 README.md
+
 
 
 🚦 Routes & Navigation
