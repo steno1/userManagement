@@ -1,7 +1,12 @@
 📋 User Management System
+
+
 A fully functional User Management System built with React, TypeScript, and Redux Toolkit. This project fetches user data from an external API and allows users to view, add, update, and delete user information locally within the app.
 
+
 🚀 Features
+
+
 🌐 Fetch Users: Initial user data fetched from https://jsonplaceholder.typicode.com/users.
 
 🗂️ Global State Management: Implemented using Redux Toolkit.
@@ -18,7 +23,10 @@ A fully functional User Management System built with React, TypeScript, and Redu
 
 🔥 Responsive & Styled UI: Clean, appealing card-based layout with smooth navigation.
 
+
 🛠️ Technologies Used
+
+
 React
 
 TypeScript
@@ -28,6 +36,8 @@ Redux Toolkit
 React Router DOM
 
 CSS
+
+
 
 📂 Folder Structure
 
@@ -56,6 +66,8 @@ CSS
 
 🚦 Routes & Navigation
 
+
+
 Route	Description
 /users	Displays the list of users
 /users/:id	Shows detailed view of a user
@@ -68,6 +80,8 @@ Node.js (v14 or later)
 npm or yarn
 
 ⚙️ Installation & Running Locally
+
+
 Clone the repository:
 
 git clone https://github.com/steno1/userManagement.git
@@ -90,8 +104,10 @@ Clean, modular folder structure for scalability.
 
 Fully responsive, minimal UI styling with CSS.
 
+
 📝 Note
 The https://jsonplaceholder.typicode.com/users API is only used for initial fetch. Add, edit, and delete functionalities are handled locally in Redux, with no POST, PUT, or DELETE requests sent to the API.
+
 
 👨‍💻 Author
 Onu Princeley Toochukwu
