@@ -1,8 +1,6 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import UserList from '../features/users/components/pages/UserList';
-
 import UserDetail from '../features/users/components/pages/UserDetail';
-
 import AddEditUser from '../features/users/components/pages/AddEditUser';
 
 const AppRoutes = () => (
