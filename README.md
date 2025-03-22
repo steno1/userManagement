@@ -3,13 +3,12 @@
 
 A fully functional User Management System built with React, TypeScript, and Redux Toolkit. This project fetches user data from an external API and allows users to view, add, update, and delete user information locally within the app.
 
-
 🚀 Features
 
 
-🌐 Fetch Users: Initial user data fetched from https://jsonplaceholder.typicode.com/users.
+🌐 Fetch Users: Initial user data fetched from JSONPlaceholder API.
 
-🗂️ Global State Management: Implemented using Redux Toolkit.
+🗂️ Global State Management: Powered by Redux Toolkit.
 
 ➕ Add Users: Add new users locally.
 
@@ -21,7 +20,7 @@ A fully functional User Management System built with React, TypeScript, and Redu
 
 🔄 Local State Updates: Add, edit, and delete operations are handled locally without API requests.
 
-🔥 Responsive & Styled UI: Clean, appealing card-based layout with smooth navigation.
+💎 Responsive UI: Clean, card-based layout with smooth navigation and CSS styling.
 
 
 🛠️ Technologies Used
@@ -37,10 +36,7 @@ React Router DOM
 
 CSS
 
-
-
 📂 Folder Structure
-
 
 📦 userManagement
 ├── 📂 public
@@ -66,54 +62,60 @@ CSS
 │   └── 📄 main.tsx
 └── 📄 README.md
 
-
-
 🚦 Routes & Navigation
 
 
-
 Route	Description
+
 /users	Displays the list of users
 /users/:id	Shows detailed view of a user
 /add-user	Form to add a new user
 /edit-user/:id	Form to edit an existing user
 
+
 📌 Requirements
-Node.js (v14 or later)
+Node.js (v14+)
 
 npm or yarn
 
 ⚙️ Installation & Running Locally
-
-
 Clone the repository:
+
 
 git clone https://github.com/steno1/userManagement.git
 cd userManagement
 Install dependencies:
 
+
 npm install
 Run the app:
+
 
 npm run dev
 Visit in browser:
 
+
 http://localhost:5173
+
 🌟 Project Highlights
-Proper Redux Toolkit setup with slices & async thunks.
 
-Local-only state manipulation after initial API fetch.
+🟢 Proper Redux Toolkit setup with slices & async thunks.
 
-Clean, modular folder structure for scalability.
+🟢 Local-only state manipulation after initial API fetch.
 
-Fully responsive, minimal UI styling with CSS.
+🟢 Clean, modular folder structure for scalability.
 
+🟢 Fully responsive, minimal UI styling with CSS.
 
 📝 Note
-The https://jsonplaceholder.typicode.com/users API is only used for initial fetch. Add, edit, and delete functionalities are handled locally in Redux, with no POST, PUT, or DELETE requests sent to the API.
 
+
+The API https://jsonplaceholder.typicode.com/users is only used for initial fetch.
+Add, edit, and delete functionalities are handled locally in Redux, with no POST, PUT, or DELETE requests sent to the API.
 
 👨‍💻 Author
+
 Onu Princeley Toochukwu
 
 GitHub: steno1
+
