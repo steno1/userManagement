@@ -1,33 +1,74 @@
 .user-card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
-    width: 250px;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .user-card h3 {
-    margin-bottom: 8px;
-  }
-  
-  .user-card p {
-    margin: 4px 0;
-  }
-  
-  .user-card__buttons {
-    margin-top: 12px;
-  }
-  
-  .user-card__buttons button {
-    margin: 0 4px;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .user-card__buttons button:hover {
-    background-color: #f0f0f0;
-  }
-  
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  padding: 24px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e0e0e0;
+}
+
+.user-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+}
+
+.user-card h3 {
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: #222;
+}
+
+.user-card p {
+  margin: 8px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.user-card__buttons {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.user-card__buttons button {
+  flex: 1;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.user-card__buttons button:hover {
+  transform: scale(1.05);
+}
+
+/* Distinct, bold colors */
+.user-card__buttons .view-btn {
+  background-color: #4caf50; /* Green */
+}
+
+.user-card__buttons .view-btn:hover {
+  background-color: #43a047;
+}
+
+.user-card__buttons .edit-btn {
+  background-color: #ff9800; /* Orange */
+}
+
+.user-card__buttons .edit-btn:hover {
+  background-color: #fb8c00;
+}
+
+.user-card__buttons .delete-btn {
+  background-color: #f44336; /* Red */
+}
+
+.user-card__buttons .delete-btn:hover {
+  background-color: #e53935;
+}

@@ -25,9 +25,9 @@ const UserCard: React.FC<UserCardProps> = ({ user, onDelete }) => {
       <p>Email: {user.email}</p>
       <p>Address: {user.address.street}, {user.address.city}</p>
       <div className="user-card__buttons">
-        <button onClick={handleView}>View</button>
-        <button onClick={handleEdit}>Edit</button>
-        <button onClick={() => onDelete(user.id)}>Delete</button>
+        <button className="view-btn" onClick={handleView}>View</button>
+        <button className="edit-btn" onClick={handleEdit}>Edit</button>
+        <button className="delete-btn" onClick={() => onDelete(user.id)}>Delete</button>
       </div>
     </div>
   );
